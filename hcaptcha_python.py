@@ -2,9 +2,9 @@ import requests
 import time
 import json
 
-api = "e2f9ae503a1965015dac098d5be7c14a"
-sitekey = "4c672d35-0701-42b2-88c3-78380b0db560"
-pageurl = "https://canary.discord.com/register"
+api = "APIKEY"
+sitekey = "SITEKEY"
+pageurl = "PAGEURL"
 
 url = f"https://2captcha.com/in.php?key={api}&method=hcaptcha&sitekey={sitekey}&pageurl={pageurl}&json=1"
 
