@@ -12,7 +12,7 @@ response = requests.post(url)
 data = response.json()
 
 requestid = data['request']
-print(data['request'])
+#print(data['request'])
 
 while True:
     time.sleep(5)
@@ -20,7 +20,6 @@ while True:
     response = requests.get(url2)
     data = response.json()
     if data['status'] == 1:
-        print("CAPTCHA ÇÖZÜLDÜ.")
         yy2 = data['request']
         break
     else:
